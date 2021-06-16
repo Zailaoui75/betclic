@@ -3,24 +3,8 @@
 library("plotly") 
 library("RSQLite")
 
-#library("DBI")
-#library("RMySQL")
-#library("RMariaDB")
-
 # Database connection
 conn <- dbConnect(RSQLite::SQLite(), "./betclic.db")
-#library("DBI")
-#library("RMySQL")
-#library("RMariaDB")
-
-#dbString <- "database-2.cluster-c654m9q5ae8q.us-east-2.rds.amazonaws.com"
-#username="admin"
-#password="Zailaoui"
-#dbname="fakebdd"
-#port=3306 
-#conn <- DBI::dbConnect(RMySQL::MySQL(),
-#                                host = dbString,
-#                                user=username, password=password, dbname=dbname)
 
 server <- function(input, output) {
   set.seed(122)

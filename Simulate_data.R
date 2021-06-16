@@ -222,9 +222,8 @@ for(i in 1:length(dates)){
   }
 }
 View( monthly_acquisition_cost )
-
-conn <- dbConnect(RSQLite::SQLite(), "./appli_shiny/betclic.db")
-dbWriteTable(conn, "monthly_user_revenue", monthly_user_revenue)
-dbWriteTable(conn, "user", user_with_inactivity)
-dbWriteTable(conn, "monthly_acquisition_cost", monthly_acquisition_cost)
-dbListTables(conn)
+#conn <- dbConnect(RSQLite::SQLite(), "/Users/atalaya/Desktop/betclic_pablo_atalaya/appli_shiny/betclic.db")
+#dbWriteTable(conn, "monthly_user_revenue", monthly_user_revenue)
+#dbWriteTable(conn, "user", user_with_inactivity)
+#dbWriteTable(conn, "monthly_acquisition_cost", monthly_acquisition_cost)
+#dbListTables(conn)

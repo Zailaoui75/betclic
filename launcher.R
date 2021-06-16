@@ -1,7 +1,6 @@
 library("shiny")
 
-runApp('./appli_shiny')
-
+runApp("/Users/atalaya/Desktop/betclic_pablo_atalaya/appli_shiny/")
 
 
 
