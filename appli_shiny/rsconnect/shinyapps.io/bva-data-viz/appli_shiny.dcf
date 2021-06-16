@@ -1,0 +1,11 @@
+name: appli_shiny
+title:
+username:
+account: bva-data-viz
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4274401
+bundleId: 4719539
+url: https://bva-data-viz.shinyapps.io/appli_shiny/
+when: 1623772086.5656
+lastSyncTime: 1623772086.56608
